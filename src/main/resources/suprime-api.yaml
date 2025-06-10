@@ -104,7 +104,6 @@ paths:
         '405':
           description: "Validation exception"
   
-
     delete:
       description: Delete a specific Item based on given itemId
       operationId: deleteItem
@@ -129,7 +128,6 @@ paths:
 
 components: 
   schemas:
-    
     Item:
       description: This is an Item model/schema
       type: object
